@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:700&display=swap');
+
+/* To start the section from top with out eaving any space */
+*{
+   margin:0;
+   padding:0;
+   height: auto;
+   width: auto;
+ }
+
+header{
+    background-color: #e6e6e6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid red;
+    border-top-color: #cc0000;
+    border-bottom: 2px solid red;
+    border-bottom-color: #000;
+}
+/*logo properties*/
+img{
+  padding-left: 30px;
+  max-width: 6%;
+}
+@media only screen and (max-width: 600px) {
+  img {max-width:35%;}
+}
+/* college full name */
+span.name{
+  padding-left: 20px;
+  padding-top: 10px;
+  display: inline;
+  position: absolute;
+}
+/*college first name */
+span.cname{
+  font-size: 60px;
+  font-weight: bolder;
+  color: #cc0000;
+}
+/*college extension */
+div.fname{
+  padding: 0px;
+  font-style: serif Pro;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #000080;
+}
